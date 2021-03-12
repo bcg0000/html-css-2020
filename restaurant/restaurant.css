@@ -1,0 +1,77 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;1,500&family=Amatic+SC:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@1,500&family=Amatic+SC:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+/* vrem sa facem imaginea logo-ului mai mica */
+.navbar-brand img{
+    height: 70px;
+}
+#navbarNavAltMarkup {
+    display: flex;
+    justify-content: flex-end;
+    text-transform: uppercase;
+    font-family: "Alegraya";
+    font-weight: 600;
+    font-size: 1.2em;
+    color: #111;
+
+}
+#header-back{
+    background-image: url(bg-header.jpg);
+    height: 100vh;
+    background-size: cover;
+    /* parallax */
+    background-attachment: fixed;
+    
+
+}
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0; 
+    width: 100vw;
+    opacity: 0.9;
+
+
+}
+/* atunci cand punem ,,fixed", bara de navigatie nu se mai extinde de la stanga la dreapta */
+#ambience {
+    background-image: url(ambiance.jpg);
+    background-size: cover;
+    height: 60vh;
+}
+
+p{
+    font-family: "Alegreya";
+    font-size: 1.2em;
+
+}
+h2{
+    font-family: "Amatic SC";
+    font-weight: 70;
+    font-size: 3em;
+    text-align: center;
+
+}
+ h2 span{
+     display: block;
+    
+ }
+ h2 span:nth-child(1) {
+     color: #33baaf;
+
+ }
+ h2 span:nth-child(1):before, h2 span:nth-child(1)::after {
+     content:"-";
+     padding: 0.2em;
+ }
+ }
+ h2 span:nth-child(2){
+     color: #f6af33;
+ }
